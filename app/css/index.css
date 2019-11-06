@@ -218,30 +218,6 @@ nav .wrapper-settings .button { width: inherit; display: block; text-decoration:
 
 .banner-with-lectors-word .wrapper { position: relative; width: 100%; max-width: 768px; height: 100%; margin: 0 auto; }
 
-.banner-with-lectors-word .wrapper .wrapper-fone { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: end; -webkit-align-items: flex-end; -ms-flex-align: end; align-items: flex-end; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; width: 100%; height: 72%; background: #fdd000 0% 0% no-repeat padding-box; }
-
-.banner-with-lectors-word .wrapper .wrapper-fone .line1 { display: none; top: -23%; z-index: 9999; right: 0; position: absolute; width: 113px; height: 655px; background: url("../img/Trazado 75 (1).svg") 0% 0% no-repeat padding-box; -webkit-transform: rotate(45deg), scale(-1, -1); -ms-transform: rotate(45deg), scale(-1, -1); transform: rotate(45deg), scale(-1, -1); }
-
-.banner-with-lectors-word .wrapper .wrapper-fone .element-visible { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; position: absolute; top: 7%; width: 300px; padding: 15px; height: 478px; background: #33a9df 0% 0% no-repeat padding-box; opacity: 1; }
-
-.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .button-right { cursor: pointer; width: 20px; height: 20px; border-right: 1px solid #ffffff; border-bottom: 1px solid #ffffff; -webkit-transform: rotate(-45deg); -ms-transform: rotate(-45deg); transform: rotate(-45deg); }
-
-.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .button-left { cursor: pointer; width: 20px; height: 20px; border-right: 1px solid #ffffff; border-bottom: 1px solid #ffffff; -webkit-transform: rotate(136deg); -ms-transform: rotate(136deg); transform: rotate(136deg); }
-
-.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; width: 85%; height: 80%; padding: 5px 10px; }
-
-.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content .image { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; margin-bottom: 25px; }
-
-.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content .image img { width: 50%; }
-
-.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content .content { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
-
-.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content .content h3 { margin-bottom: 30px; text-align: center; letter-spacing: 0; font: 800 25px/32px Alegreya Sans; color: #ffffff; }
-
-.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content .content span { font: Bold 15px/20px Open Sans; text-align: center; font-family: "Alegreya Sans", sans-serif; color: #ffffff; opacity: 1; letter-spacing: -0.14px; }
-
-.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content .content p { font: 400 12px/14px Open Sans; text-align: center; font: Black; letter-spacing: 0; color: #ffffff; opacity: 1; }
-
 .banner-with-lectors-word .wrapper .wrapper-block-with-social-media { position: relative; top: -10px; height: 28%; width: 100%; background: #fdd000 0% 0% no-repeat padding-box; }
 
 .banner-with-lectors-word .wrapper .wrapper-block-with-social-media .social-network-block { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; padding: 45px 5px 45px 20px; position: absolute; top: 45%; width: 260px; z-index: 9999; min-height: 195px; height: auto; background: #7359e4 0% 0% no-repeat padding-box; opacity: 1; }
@@ -1028,15 +1004,6 @@ menu section.menu-teachers .wrapper .elem1, menu section.menu-teachers .wrapper 
   section.banner-information .wrapper .block-about-statistik-videos p { font: 500 35px/100px Alegreya Sans; }
   section.banner-with-lectors-word { height: 1053px; }
   section.banner-with-lectors-word .wrapper { max-width: 1024px; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .line1 { display: block; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible { width: 668px; height: 699px; padding: unset; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .button-left, section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .button-right { width: 55px; height: 55px; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content { -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content .image { -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; margin-bottom: 20px; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content .content { -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content .content h3 { width: unset; height: unset; text-align: left; font-size: 38px; font-weight: 800; margin-bottom: 20px; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content .content span { letter-spacing: -0.26px; margin: 0; font: 700 26px/40px Open Sans; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content .content p { font: 400 16px/16px Open Sans; margin: 0 30px; font-size: 16px; text-align: left; margin: 0; }
   section.banner-with-lectors-word .wrapper .wrapper-block-with-social-media .social-network-block { padding: 65px 10px 65px 60px; width: 546px; min-height: 300px; height: auto; top: 40%; }
   section.banner-with-lectors-word .wrapper .wrapper-block-with-social-media .social-network-block h3 { font-size: 50px; font-weight: 900; }
   section.banner-with-lectors-word .wrapper .wrapper-block-with-social-media .social-network-block .block .social-netowrk-links { position: unset; }
@@ -1127,13 +1094,6 @@ menu section.menu-teachers .wrapper .elem1, menu section.menu-teachers .wrapper 
   section.banner-information .wrapper .block-about-statistik .block-about-statistik-schools .counter { font-size: 80px; }
   section.banner-information .wrapper .block-about-statistik .block-about-statistik-videos { top: 50%; left: 50%; -webkit-transform: translate(-50%, 80%); -ms-transform: translate(-50%, 80%); transform: translate(-50%, 80%); }
   section.banner-information .wrapper .block-about-statistik .block-about-statistik-videos .counter { font-size: 140px; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone { width: 85%; height: 58%; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .line1 { display: none; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible { width: 90%; height: 50%; padding: unset; position: absolute; left: 5%; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content { -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content .image { -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; margin: 10px; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content .image img { width: 100%; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content .content { width: 90%; height: 90%; padding: 20px; }
   section.banner-with-lectors-word .wrapper .wrapper-block-with-social-media { width: 85%; }
   section.banner-with-lectors-word .wrapper .wrapper-block-with-social-media .social-network-block { width: 609px; min-height: 355px; height: auto; padding: 65px 25px 65px 90px; }
   section.banner-with-lectors-word .wrapper .wrapper-block-with-social-media .social-network-block h3 { font-size: 60px; }
@@ -1217,14 +1177,6 @@ menu section.menu-teachers .wrapper .elem1, menu section.menu-teachers .wrapper 
   section.banner-information .wrapper .block-about-statistik .block-about-statistik-videos .counter { font-size: 140px; }
   section.banner-information .wrapper .block-about-statistik .block-about-statistik-videos p { margin: 15px 0; }
   section.banner-with-lectors-word .wrapper { max-width: 1366px; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone { width: 85%; height: 63%; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .line1 { display: none; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible { width: 93%; height: 50%; position: absolute; padding: unset; left: 3%; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content { -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content .image { -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; margin: 10px; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content .image img { width: 100%; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content .content { width: 90%; height: 90%; padding: 20px; }
-  section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible .block-with-content .content h3 { font: 900 48px/56px Alegreya Sans; }
   section.banner-with-lectors-word .wrapper .wrapper-block-with-social-media { position: relative; height: auto; }
   section.banner-with-lectors-word .wrapper .wrapper-block-with-social-media .social-network-block { position: relative; width: 609px; min-height: 355px; height: auto; padding: 65px 25px 65px 90px; }
   section.banner-with-circle { min-height: 475px; height: auto; }
