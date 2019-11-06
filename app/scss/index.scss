@@ -406,60 +406,6 @@ menu {
     height: 1053px;
     .wrapper {
       max-width: 1024px;
-      .wrapper-fone {
-        .line1 {
-          display: block;
-        }
-        .element-visible {
-          width: 668px;
-          height: 699px;
-          // padding: 40px;
-          padding: unset;
-          .button-left,
-          .button-right {
-            width: 55px;
-            height: 55px;
-          }
-          .block-with-content {
-            align-items: flex-start;
-            .image {
-              align-items: flex-start;
-              margin-bottom: 20px;
-            }
-            .content {
-              align-items: flex-start;
-              h3 {
-                width: unset;
-                height: unset;
-                text-align: left;
-                font-size: 38px;
-                font-weight: 800;
-                // margin: 0;
-                margin-bottom: 20px;
-                // margin: 0 30px 90px 30px;
-              }
-              span {
-                // margin: 0 30px;
-                // font-weight: bold;
-                // font-size: 26px;
-                // text-align: left;
-                letter-spacing: -0.26px;
-                margin: 0;
-                // margin-bottom: 5px;
-                font: 700 26px/40px Open Sans;
-              }
-              p {
-                // width: 300px;
-                font: 400 16px/16px Open Sans;
-                margin: 0 30px;
-                font-size: 16px;
-                text-align: left;
-                margin: 0;
-              }
-            }
-          }
-        }
-      }
       .wrapper-block-with-social-media {
         .social-network-block {
           padding: 65px 10px 65px 60px;
@@ -554,6 +500,10 @@ menu {
             letter-spacing: -0.22px;
             color: #ffffff;
             opacity: 1;
+          }
+          .block-in-slider {
+            min-height: 272px;
+            height: auto;
           }
           img {
             width: 100%;
@@ -1029,43 +979,6 @@ menu {
   section.banner-with-lectors-word {
     .wrapper {
       // max-width: unset;
-      .wrapper-fone {
-        width: 85%;
-        height: 58%;
-        .line1 {
-          display: none;
-        }
-        .element-visible {
-          // width: 100%;
-          // width: 94%;
-          width: 90%;
-          height: 50%;
-          padding: unset;
-          position: absolute;
-          left: 5%;
-          .block-with-content {
-            // padding: 0;
-            align-items: center;
-            flex-direction: row;
-            .image {
-              align-items: center;
-              margin: 10px;
-              img {
-                width: 100%;
-              }
-            }
-            .content {
-              width: 90%;
-              height: 90%;
-              padding: 20px;
-            }
-            // img {
-            //   width: 30%;
-            //   height: 50%;
-            // }
-          }
-        }
-      }
       .wrapper-block-with-social-media {
         width: 85%;
         .social-network-block {
@@ -1661,51 +1574,6 @@ menu {
     .wrapper {
       max-width: $mw;
       // max-width: unset;
-      .wrapper-fone {
-        width: 85%;
-        // height: 58%;
-        height: 63%;
-        .line1 {
-          display: none;
-        }
-        .element-visible {
-          // width: 100%;
-          // width: 94%;
-          width: 93%;
-          height: 50%;
-          position: absolute;
-          padding: unset;
-          // left: 5%;
-          left: 3%;
-          .block-with-content {
-            // padding: 0;
-            align-items: center;
-            flex-direction: row;
-            .image {
-              align-items: center;
-              margin: 10px;
-              img {
-                width: 100%;
-              }
-            }
-            .content {
-              width: 90%;
-              height: 90%;
-              padding: 20px;
-              h3 {
-                // font: Black 48px/56px Alegreya Sans;
-                font: 900 48px/56px Alegreya Sans;
-                // font-weight: 900;
-                // font-family: "Algreya Sans", sans-serif;
-              }
-            }
-            // img {
-            //   width: 30%;
-            //   height: 50%;
-            // }
-          }
-        }
-      }
       .wrapper-block-with-social-media {
         // height: 17%;
         // width: 85%;
