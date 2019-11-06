@@ -1,6 +1,6 @@
 .banner-photo {
   @include flex($justify: center, $align: flex-end, $direction: row);
-  height: 577px;
+  min-height: 577px;
   background-image: url("../img/blue.png");
   // background-size: 140% 100%;
   // background-size: 209vw 100vh;
@@ -8,10 +8,10 @@
   min-height: 500px;
   // background-position: -141px;
   background-position: -290px;
-  padding-bottom: 120px;
   // max-width: 768px;
   width: 100%;
   margin: 0 auto;
+  align-items: center;
   h1 {
     max-width: 320px;
     display: block;
@@ -328,9 +328,14 @@
     }
   }
 }
+section.window-slider {
+  position: relative;
+  height: auto;
+}
 .banner-with-lectors-word {
   // width: 375px;
-  height: 730px;
+  position: relative;
+  height: auto;
   margin: 0 auto;
   // background: green;
   opacity: 1;
@@ -343,10 +348,8 @@
     // background: red;
     .wrapper-block-with-social-media {
       position: relative;
-      top: -10px;
       height: 28%;
       width: 100%;
-      background: #fdd000 0% 0% no-repeat padding-box;
       .social-network-block {
         @include flex(
           $justify: space-between,
@@ -354,7 +357,7 @@
           $direction: column
         );
         padding: 45px 5px 45px 20px;
-        position: absolute;
+        position: relative;
         top: 45%;
         width: 260px;
         z-index: 9999;
@@ -408,9 +411,9 @@
   }
 }
 .banner-with-circle {
-  min-height: 500px;
+  position: relative;
   height: auto;
-  margin: 0 auto;
+  margin: 70px 0;
   opacity: 1;
   // background: red;
   .wrapper {
@@ -446,7 +449,6 @@
       min-height: 188px;
       height: auto;
       position: unset;
-      margin-top: 190px;
       z-index: 100;
       .video {
         display: none;
@@ -482,6 +484,7 @@
           height: auto;
           background: #7359e4 0% 0% no-repeat padding-box;
           .quotes {
+            min-height: 188px;
             position: relative;
             height: 100%;
             width: 100%;

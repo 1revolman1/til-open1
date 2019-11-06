@@ -6,6 +6,8 @@
 @import "pricing";
 @import "team";
 @import "testimonials";
+@import "contacts";
+@import "ourexercises";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -233,7 +235,7 @@ menu {
   }
   section.banner-photo {
     // max-width: 1024px;
-    height: 934px;
+    min-height: 934px;
     // background-size: 100vw 100%;
     // background-size: 115% 101%;
     align-items: center;
@@ -403,11 +405,13 @@ menu {
     }
   }
   section.banner-with-lectors-word {
-    height: 1053px;
+    position: relative;
+    height: auto;
     .wrapper {
       max-width: 1024px;
       .wrapper-block-with-social-media {
         .social-network-block {
+          position: relative;
           padding: 65px 10px 65px 60px;
           // width: 60%;
           // height: 90%;
@@ -415,7 +419,6 @@ menu {
           // height: 300px;
           min-height: 300px;
           height: auto;
-          top: 40%;
           h3 {
             font-size: 50px;
             font-weight: 900;
@@ -445,8 +448,9 @@ menu {
   section.banner-with-circle {
     // height: 440px;
     // height: 500px;
-    min-height: 595px;
+    position: relative;
     height: auto;
+    margin: 90px 0;
     .wrapper {
       max-width: 1024px;
       height: auto;
@@ -469,8 +473,8 @@ menu {
       }
       .slider {
         // width: 92%;
+        position: relative;
         width: 100%;
-        margin-top: 180px;
         // height: 272px;
         min-height: 272px;
         height: auto;
@@ -504,6 +508,9 @@ menu {
           .block-in-slider {
             min-height: 272px;
             height: auto;
+            .quotes {
+              min-height: 272px;
+            }
           }
           img {
             width: 100%;
@@ -808,13 +815,12 @@ menu {
   }
   section.banner-photo {
     // padding-bottom: 30%;
-    padding-bottom: 250px;
     background-position: 0;
     // background-size: 125vw 100%;
     background-size: 100vw 100%;
-    align-items: flex-end;
     h1 {
       font: Bold 31px/50px Open Sans;
+      margin-top: 320px;
       // font-size: 50px;
     }
   }
@@ -982,6 +988,7 @@ menu {
       .wrapper-block-with-social-media {
         width: 85%;
         .social-network-block {
+          position: relative;
           width: 609px;
           // height: 355px;
           min-height: 355px;
@@ -1009,7 +1016,7 @@ menu {
   section.banner-with-circle {
     // height: 440px;
     // height: 475px;
-    min-height: 475px;
+    position: relative;
     height: auto;
     .wrapper {
       // max-width: unset;
@@ -1041,8 +1048,8 @@ menu {
         transform: scale(2);
       }
       .slider {
+        position: relative;
         width: 100%;
-        margin-top: 90px;
       }
     }
   }
@@ -1370,7 +1377,6 @@ menu {
     // background-position: -360px;
     background-size: 100vw 100%;
     background-position: 0px;
-    align-items: flex-end;
     h1 {
       // font-size: 33px;
       // font-size: 50px;
@@ -1593,8 +1599,9 @@ menu {
   section.banner-with-circle {
     // height: 440px;
     // height: 475px;
-    min-height: 475px;
+    position: relative;
     height: auto;
+    margin-bottom: 120px;
     .wrapper {
       max-width: $mw;
       height: auto;
