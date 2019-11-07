@@ -233,4 +233,52 @@ $(document).on("ready", function() {
       }
     ]
   });
+  $(".element-visible").slick({
+    adaptiveHeight: true,
+    dots: false,
+    infinite: true,
+    slidesToShow: 1,
+    prevArrow: "<img src='./img/Grupo 51.svg' class='prev' alt='1'>",
+    nextArrow: "<img src='./img/Grupo 52.svg' class='next' alt='2'>",
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          vertical: true,
+          adaptiveHeight: true
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          vertical: true,
+          adaptiveHeight: true
+        }
+      }
+    ]
+  });
 });
+
+// $(".element-visible").slick({
+//   adaptiveHeight: true
+//   // responsive: [
+//   //   {
+//   //     breakpoint: 368,
+//   //     settings: {
+//   //       vertical: true,
+//   //       adaptiveHeight: false
+//   //     }
+//   //   },
+//   //   {
+//   //     breakpoint: 600,
+//   //     settings: {
+//   //       // vertical: true
+//   //       // adaptiveHeight: false
+//   //     }
+//   //   }
+//   // ]
+// });
+
+// $(".element-visible").slick({
+//   adaptiveHeight: true
+// });
