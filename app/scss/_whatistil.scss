@@ -106,6 +106,7 @@ section.whatistil-content {
     }
     img {
       width: 90%;
+      max-width: 305px;
     }
   }
 }
@@ -159,7 +160,8 @@ section.whatistil-content {
       img {
         position: relative;
         right: 30px;
-        width: 87%;
+        // width: 87%;
+        max-width: 599px;
       }
     }
   }
@@ -185,10 +187,23 @@ section.whatistil-content {
     }
     .block-with-text-content {
       padding: 40px;
-      height: 1850px;
+      height: auto;
       width: 85.2%;
       // right: calc(3px - 15%);
       // right: calc(-24vh + -7px);
+      .elem1,
+      .elem2,
+      .elem3,
+      .elem4 {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        margin: 10px 0 50px 0;
+      }
+      .elem2,
+      .elem4 {
+        flex-direction: row-reverse;
+      }
       .text-block1,
       .text-block2,
       .text-block3,
@@ -213,24 +228,18 @@ section.whatistil-content {
         }
       }
       .text-block1 {
-        float: left;
-        clear: both;
         width: 285px;
         margin: unset;
       }
       .text-block2 {
-        float: right;
         width: 355px;
         margin: unset;
       }
       .text-block3 {
         width: 244px;
-        float: left;
         margin: unset;
-        clear: both;
       }
       .text-block4 {
-        float: right;
         width: 400px;
         margin: unset;
       }
@@ -238,7 +247,10 @@ section.whatistil-content {
       .second,
       .third,
       .four {
+        // position: absolute;
         position: relative;
+        min-width: 500px;
+        max-height: 400px;
       }
       .sustrac,
       .trazado230,
@@ -247,16 +259,15 @@ section.whatistil-content {
         position: absolute;
       }
       .first {
-        float: right;
         width: 44%;
+        position: relative;
+        left: 5px;
       }
       .second {
-        float: left;
         width: 51%;
         right: 65px;
       }
       .third {
-        float: right;
         width: 53%;
       }
       .four {
@@ -346,15 +357,13 @@ section.whatistil-content {
       padding: 78px 40px 155px 40px;
       // padding: 40px;
       // padding-bottom: 155px;
-      height: inherit;
+      height: auto;
       width: 85.2%;
       // right: calc(0px - 15%);
       margin-left: auto;
       .elem1 {
         display: flex;
         .text-block1 {
-          float: unset;
-          clear: unset;
           width: unset;
           height: unset;
           // margin: 0 200px 0 0;
@@ -410,8 +419,6 @@ section.whatistil-content {
           }
         }
         .third {
-          float: unset;
-          clear: unset;
           width: unset;
           height: unset;
           // position: unset;
@@ -426,7 +433,6 @@ section.whatistil-content {
           width: unset;
           height: unset;
           margin: unset;
-          float: unset;
           margin-right: 170px;
           h3 {
             font: 900 30px/35px Open Sans;
@@ -437,8 +443,6 @@ section.whatistil-content {
           }
         }
         .third {
-          float: unset;
-          clear: unset;
           width: unset;
           height: unset;
           right: 65px;
@@ -469,12 +473,10 @@ section.whatistil-content {
       }
       .text-block3 {
         width: 244px;
-        float: left;
         margin: unset;
         clear: both;
       }
       .text-block4 {
-        float: right;
         width: 400px;
         margin: unset;
       }
@@ -495,13 +497,11 @@ section.whatistil-content {
         height: 311px;
       }
       .second {
-        float: left;
         width: 497px;
         height: 280px;
         right: 65px;
       }
       .third {
-        float: right;
         width: 603px;
         height: 508px;
       }
