@@ -79,10 +79,7 @@ section.whatistil-content {
     .trazado231 {
       display: none;
     }
-    .text-block1,
-    .text-block2,
-    .text-block3,
-    .text-block4 {
+    .text-block {
       margin: 0 44px 0 31px;
       h3 {
         margin: 53px auto 25px auto;
@@ -133,10 +130,7 @@ section.whatistil-content {
     }
     .block-with-text-content {
       width: 85.2%;
-      .text-block1,
-      .text-block2,
-      .text-block3,
-      .text-block4 {
+      .text-block {
         margin: 0 213px 0 20px;
         h3 {
           margin: 53px auto 25px auto;
@@ -191,23 +185,16 @@ section.whatistil-content {
       width: 85.2%;
       // right: calc(3px - 15%);
       // right: calc(-24vh + -7px);
-      .elem1,
-      .elem2,
-      .elem3,
-      .elem4 {
+      .elem {
         display: flex;
         position: relative;
         justify-content: space-between;
         margin: 10px 0 50px 0;
       }
-      .elem2,
-      .elem4 {
+      .elem:nth-child(odd) {
         flex-direction: row-reverse;
       }
-      .text-block1,
-      .text-block2,
-      .text-block3,
-      .text-block4 {
+      .text-block {
         position: relative;
         margin: 0 257px 0 20px;
         h3 {
@@ -227,26 +214,23 @@ section.whatistil-content {
           font-family: "Open Sans", sans-serif;
         }
       }
-      .text-block1 {
-        width: 285px;
-        margin: unset;
-      }
-      .text-block2 {
-        width: 355px;
-        margin: unset;
-      }
-      .text-block3 {
-        width: 244px;
-        margin: unset;
-      }
-      .text-block4 {
-        width: 400px;
-        margin: unset;
-      }
-      .first,
-      .second,
-      .third,
-      .four {
+      // .text-block1 {
+      //   width: 285px;
+      //   margin: unset;
+      // }
+      // .text-block2 {
+      //   width: 355px;
+      //   margin: unset;
+      // }
+      // .text-block3 {
+      //   width: 244px;
+      //   margin: unset;
+      // }
+      // .text-block4 {
+      //   width: 400px;
+      //   margin: unset;
+      // }
+      .img-block {
         // position: absolute;
         position: relative;
         min-width: 500px;
@@ -258,32 +242,22 @@ section.whatistil-content {
         display: block;
         position: absolute;
       }
-      .first {
-        width: 44%;
-        position: relative;
-        left: 5px;
-      }
-      .second {
-        width: 51%;
-        right: 65px;
-      }
-      .third {
-        width: 53%;
-      }
-      .four {
-        width: 46%;
-        right: 65px;
-      }
-      .first:after,
-      .second ::after,
-      .third::after,
-      .four::after {
-        content: ".";
-        visibility: hidden;
-        display: block;
-        height: 0;
-        clear: both;
-      }
+      // .first {
+      //   width: 44%;
+      //   position: relative;
+      //   left: 5px;
+      // }
+      // .second {
+      //   width: 51%;
+      //   right: 65px;
+      // }
+      // .third {
+      //   width: 53%;
+      // }
+      // .four {
+      //   width: 46%;
+      //   right: 65px;
+      // }
       img {
         width: unset;
       }
@@ -361,37 +335,35 @@ section.whatistil-content {
       width: 85.2%;
       // right: calc(0px - 15%);
       margin-left: auto;
-      .elem1 {
-        display: flex;
-        .text-block1 {
-          width: unset;
-          height: unset;
-          // margin: 0 200px 0 0;
-          margin: 0px 150px 0 0;
-          h3 {
-            font: 900 30px/35px Open Sans;
-          }
-          p {
-            font: 400 20px/25px Open Sans;
-          }
+      .text-block {
+        width: unset;
+        height: unset;
+        margin: 0px 150px 0 0;
+        h3 {
+          font: 900 30px/35px Open Sans;
+        }
+        p {
+          font: 400 20px/25px Open Sans;
         }
       }
-      .elem2 {
+      .elem:nth-child(4) {
+        img {
+          min-width: 551px;
+          // height: 311px;
+        }
+      }
+      .elem:nth-child(5) {
         margin-top: 150px;
         display: flex;
         position: relative;
         top: 18px;
         flex-direction: row-reverse;
-        // width: 83%;
-        // width: 108%;
         left: 0;
-        .text-block2 {
-          // width: 407px;
-          width: 600px;
-          /* height: 479px; */
+        .text-block {
+          // width: 600px;
+          width: unset;
           margin-top: 100px;
           margin-bottom: 100px;
-          // margin-right: 125px;
           margin-right: 155px;
           h3 {
             margin-right: 35%;
@@ -401,15 +373,23 @@ section.whatistil-content {
             font: 400 20px/25px Open Sans;
           }
         }
+        img {
+          max-width: 497px;
+          max-height: 280px;
+          min-width: unset;
+          right: 65px;
+        }
       }
-      .elem3 {
+
+      .elem:nth-child(6) {
         align-items: flex-end;
         display: flex;
-        .text-block3 {
+        .text-block {
           width: unset;
           height: unset;
+          // width: 244px;
           margin: unset;
-          margin-right: 60px;
+          margin-right: 110px;
           h3 {
             font: 900 30px/35px Open Sans;
             margin-right: 35%;
@@ -418,21 +398,21 @@ section.whatistil-content {
             font: 400 20px/25px Open Sans;
           }
         }
-        .third {
-          width: unset;
-          height: unset;
-          // position: unset;
-          right: unset;
+        img {
+          min-width: 555px;
+          max-height: 508px;
         }
       }
-      .elem4 {
+
+      .elem:nth-child(7) {
         margin-top: 101px;
         flex-direction: row-reverse;
         display: flex;
-        .text-block4 {
-          width: unset;
+        .text-block {
+          // width: unset;
           height: unset;
           margin: unset;
+          // width: 400px;
           margin-right: 170px;
           h3 {
             font: 900 30px/35px Open Sans;
@@ -442,48 +422,11 @@ section.whatistil-content {
             font: 400 20px/25px Open Sans;
           }
         }
-        .third {
-          width: unset;
-          height: unset;
+        img {
           right: 65px;
         }
       }
-      .text-block1,
-      .text-block2,
-      .text-block3,
-      .text-block4 {
-        position: relative;
-        margin: unset;
-        h3 {
-          margin: unset;
-          font-family: "Open Sans", sans-serif;
-          color: white;
-          font-size: 30px;
-          line-height: 35px;
-          letter-spacing: 0.3px;
-        }
-        p {
-          margin: 20px auto;
-          letter-spacing: 0;
-          color: white;
-          font-size: 20px;
-          line-height: 25px;
-          font-family: "Open Sans", sans-serif;
-        }
-      }
-      .text-block3 {
-        width: 244px;
-        margin: unset;
-        clear: both;
-      }
-      .text-block4 {
-        width: 400px;
-        margin: unset;
-      }
-      .first,
-      .second,
-      .third,
-      .four {
+      .img-block {
         position: relative;
       }
       .sustrac,
@@ -491,34 +434,6 @@ section.whatistil-content {
       .trazado231 {
         display: block;
         position: absolute;
-      }
-      .first {
-        width: 551px;
-        height: 311px;
-      }
-      .second {
-        width: 497px;
-        height: 280px;
-        right: 65px;
-      }
-      .third {
-        width: 603px;
-        height: 508px;
-      }
-      .four {
-        width: 497px;
-        height: 369px;
-        right: 65px;
-      }
-      .first:after,
-      .second ::after,
-      .third::after,
-      .four::after {
-        content: ".";
-        visibility: hidden;
-        display: block;
-        height: 0;
-        clear: both;
       }
       img {
         width: unset;
@@ -528,15 +443,12 @@ section.whatistil-content {
         z-index: -0;
         left: 0;
         top: 640px;
-        // top: 600px;
       }
       .trazado230 {
         right: 0;
-        // top: 1320px;
         top: 1350px;
       }
       .trazado231 {
-        // top: 80%;
         top: 78%;
         left: 0;
       }
@@ -545,11 +457,7 @@ section.whatistil-content {
   .whatistil-footer {
     .foot {
       .block-with-who-trusted-us {
-        // max-width: 900px;
         max-width: 1024px;
-        /* margin-left: auto; */
-        /* margin: unset; */
-        // margin: 0 0 0 auto;
       }
     }
     .footer-wrapper {
