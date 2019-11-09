@@ -346,13 +346,16 @@ section.whatistil-content {
           font: 400 20px/25px Open Sans;
         }
       }
-      .elem:nth-child(4) {
+      .element.elem:nth-child(4n + 4) {
         img {
           min-width: 551px;
           // height: 311px;
         }
       }
-      .elem:nth-child(5) {
+      .element.elem:nth-child(odd) {
+        flex-direction: row-reverse;
+      }
+      .element.elem:nth-child(5n + 5) {
         margin-top: 150px;
         display: flex;
         position: relative;
@@ -381,7 +384,7 @@ section.whatistil-content {
         }
       }
 
-      .elem:nth-child(6) {
+      .element.elem:nth-child(6n + 6) {
         align-items: flex-end;
         display: flex;
         .text-block {
@@ -404,7 +407,7 @@ section.whatistil-content {
         }
       }
 
-      .elem:nth-child(7) {
+      .element.elem:nth-child(7n + 7) {
         margin-top: 101px;
         flex-direction: row-reverse;
         display: flex;

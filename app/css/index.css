@@ -441,22 +441,23 @@ section.whatistil-content .block-with-text-content img { width: 90%; max-width: 
   section.whatistil-content .block-with-text-content .text-block { width: unset; height: unset; margin: 0px 150px 0 0; }
   section.whatistil-content .block-with-text-content .text-block h3 { font: 900 30px/35px Open Sans; }
   section.whatistil-content .block-with-text-content .text-block p { font: 400 20px/25px Open Sans; }
-  section.whatistil-content .block-with-text-content .elem:nth-child(4) img { min-width: 551px; }
-  section.whatistil-content .block-with-text-content .elem:nth-child(5) { margin-top: 150px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; position: relative; top: 18px; -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -webkit-flex-direction: row-reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; left: 0; }
-  section.whatistil-content .block-with-text-content .elem:nth-child(5) .text-block { width: unset; margin-top: 100px; margin-bottom: 100px; margin-right: 155px; }
-  section.whatistil-content .block-with-text-content .elem:nth-child(5) .text-block h3 { margin-right: 35%; font: 900 30px/35px Open Sans; }
-  section.whatistil-content .block-with-text-content .elem:nth-child(5) .text-block p { font: 400 20px/25px Open Sans; }
-  section.whatistil-content .block-with-text-content .elem:nth-child(5) img { max-width: 497px; max-height: 280px; min-width: unset; right: 65px; }
-  section.whatistil-content .block-with-text-content .elem:nth-child(6) { -webkit-box-align: end; -webkit-align-items: flex-end; -ms-flex-align: end; align-items: flex-end; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
-  section.whatistil-content .block-with-text-content .elem:nth-child(6) .text-block { width: unset; height: unset; margin: unset; margin-right: 110px; }
-  section.whatistil-content .block-with-text-content .elem:nth-child(6) .text-block h3 { font: 900 30px/35px Open Sans; margin-right: 35%; }
-  section.whatistil-content .block-with-text-content .elem:nth-child(6) .text-block p { font: 400 20px/25px Open Sans; }
-  section.whatistil-content .block-with-text-content .elem:nth-child(6) img { min-width: 555px; max-height: 508px; }
-  section.whatistil-content .block-with-text-content .elem:nth-child(7) { margin-top: 101px; -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -webkit-flex-direction: row-reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
-  section.whatistil-content .block-with-text-content .elem:nth-child(7) .text-block { height: unset; margin: unset; margin-right: 170px; }
-  section.whatistil-content .block-with-text-content .elem:nth-child(7) .text-block h3 { font: 900 30px/35px Open Sans; margin-right: 35%; }
-  section.whatistil-content .block-with-text-content .elem:nth-child(7) .text-block p { font: 400 20px/25px Open Sans; }
-  section.whatistil-content .block-with-text-content .elem:nth-child(7) img { right: 65px; }
+  section.whatistil-content .block-with-text-content .element.elem:nth-child(4n + 4) img { min-width: 551px; }
+  section.whatistil-content .block-with-text-content .element.elem:nth-child(odd) { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -webkit-flex-direction: row-reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+  section.whatistil-content .block-with-text-content .element.elem:nth-child(5n + 5) { margin-top: 150px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; position: relative; top: 18px; -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -webkit-flex-direction: row-reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; left: 0; }
+  section.whatistil-content .block-with-text-content .element.elem:nth-child(5n + 5) .text-block { width: unset; margin-top: 100px; margin-bottom: 100px; margin-right: 155px; }
+  section.whatistil-content .block-with-text-content .element.elem:nth-child(5n + 5) .text-block h3 { margin-right: 35%; font: 900 30px/35px Open Sans; }
+  section.whatistil-content .block-with-text-content .element.elem:nth-child(5n + 5) .text-block p { font: 400 20px/25px Open Sans; }
+  section.whatistil-content .block-with-text-content .element.elem:nth-child(5n + 5) img { max-width: 497px; max-height: 280px; min-width: unset; right: 65px; }
+  section.whatistil-content .block-with-text-content .element.elem:nth-child(6n + 6) { -webkit-box-align: end; -webkit-align-items: flex-end; -ms-flex-align: end; align-items: flex-end; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+  section.whatistil-content .block-with-text-content .element.elem:nth-child(6n + 6) .text-block { width: unset; height: unset; margin: unset; margin-right: 110px; }
+  section.whatistil-content .block-with-text-content .element.elem:nth-child(6n + 6) .text-block h3 { font: 900 30px/35px Open Sans; margin-right: 35%; }
+  section.whatistil-content .block-with-text-content .element.elem:nth-child(6n + 6) .text-block p { font: 400 20px/25px Open Sans; }
+  section.whatistil-content .block-with-text-content .element.elem:nth-child(6n + 6) img { min-width: 555px; max-height: 508px; }
+  section.whatistil-content .block-with-text-content .element.elem:nth-child(7n + 7) { margin-top: 101px; -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -webkit-flex-direction: row-reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+  section.whatistil-content .block-with-text-content .element.elem:nth-child(7n + 7) .text-block { height: unset; margin: unset; margin-right: 170px; }
+  section.whatistil-content .block-with-text-content .element.elem:nth-child(7n + 7) .text-block h3 { font: 900 30px/35px Open Sans; margin-right: 35%; }
+  section.whatistil-content .block-with-text-content .element.elem:nth-child(7n + 7) .text-block p { font: 400 20px/25px Open Sans; }
+  section.whatistil-content .block-with-text-content .element.elem:nth-child(7n + 7) img { right: 65px; }
   section.whatistil-content .block-with-text-content .img-block { position: relative; }
   section.whatistil-content .block-with-text-content .sustrac, section.whatistil-content .block-with-text-content .trazado230, section.whatistil-content .block-with-text-content .trazado231 { display: block; position: absolute; }
   section.whatistil-content .block-with-text-content img { width: unset; }
