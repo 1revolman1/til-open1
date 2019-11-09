@@ -433,7 +433,7 @@ section.whatistil-content .block-with-text-content img { width: 90%; max-width: 
   section.whatistil-text .wrapper h1 { margin: 0 0 140px 250px; }
   section.whatistil-content .wrapper { max-width: 1366px; }
   section.whatistil-content .sticky-element { width: 713px; height: 104%; }
-  section.whatistil-content .sticky-element .stick-element { display: block; width: 100px; height: 104%; position: fixed; top: 55%; z-index: 99999; }
+  section.whatistil-content .sticky-element .stick-element { display: block; width: 100px; height: auto; position: fixed; top: 55%; z-index: 99999; }
   section.whatistil-content .sticky-element .stick-element ul .head { font-size: 15px; letter-spacing: 17px; font-family: "Open Sans", sans-serif; letter-spacing: -0.15px; color: #ffffff; text-decoration: underline; }
   section.whatistil-content .sticky-element .stick-element ul li { margin: 10px auto; list-style-type: none; }
   section.whatistil-content .sticky-element .stick-element ul li a { text-decoration: none; font-size: 15px; letter-spacing: 17px; font-family: "Open Sans", sans-serif; letter-spacing: -0.15px; color: #ffffff; }
@@ -669,7 +669,7 @@ section.pricing-content .block-with-text-content .elem3 p a { text-decoration: n
   section.pricing-text .wrapper h1 { margin: 0 0 140px 250px; }
   section.pricing-content .wrapper { max-width: 1366px; }
   section.pricing-content .sticky-element { width: 713px; height: 120%; }
-  section.pricing-content .sticky-element .stick-element { display: block; width: 100px; height: 104%; position: fixed; top: 55%; z-index: 99999; }
+  section.pricing-content .sticky-element .stick-element { display: block; width: 100px; height: auto; position: fixed; top: 55%; z-index: 99999; }
   section.pricing-content .sticky-element .stick-element ul .head { font-size: 15px; letter-spacing: 17px; font-family: "Open Sans", sans-serif; letter-spacing: -0.15px; color: #ffffff; }
   section.pricing-content .sticky-element .stick-element ul li { margin: 10px auto; list-style-type: none; }
   section.pricing-content .sticky-element .stick-element ul li a { text-decoration: none; font-size: 15px; letter-spacing: 17px; font-family: "Open Sans", sans-serif; letter-spacing: -0.15px; color: #ffffff; }
@@ -818,7 +818,7 @@ section.team-content .block-with-text-content .elem p { font-size: 16px; line-he
   section.team-content .wrapper .block-with-text-content .elem h3 { font-size: 26px; line-height: 32px; font-family: "Open Sans", sans-serif; letter-spacing: 0.26px; color: white; }
   section.team-content .wrapper .block-with-text-content .elem p { font-size: 26px; line-height: 32px; font-family: "Open Sans", sans-serif; letter-spacing: 0.26px; color: white; }
   section.team-content .sticky-element { width: 713px; height: 104%; }
-  section.team-content .sticky-element .stick-element { display: block; width: 100px; height: 104%; position: fixed; top: 55%; z-index: 99999; }
+  section.team-content .sticky-element .stick-element { display: block; width: 100px; height: auto; position: fixed; top: 55%; z-index: 99999; }
   section.team-content .sticky-element .stick-element ul .head { font-size: 15px; letter-spacing: 17px; font-family: "Open Sans", sans-serif; letter-spacing: -0.15px; color: #ffffff; text-decoration: underline; }
   section.team-content .sticky-element .stick-element ul li { margin: 10px auto; list-style-type: none; }
   section.team-content .sticky-element .stick-element ul li a { text-decoration: none; font-size: 15px; letter-spacing: 17px; font-family: "Open Sans", sans-serif; letter-spacing: -0.15px; color: #ffffff; } }
@@ -938,7 +938,7 @@ footer { clear: both; }
   .testimonials-text .wrapper h1 { margin: 0 0 140px 200px; }
   .testimonials-content .wrapper { max-width: 1366px; }
   .testimonials-content .sticky-element { width: 713px; height: 104%; }
-  .testimonials-content .sticky-element .stick-element { display: block; width: 100px; height: 104%; position: fixed; top: 55%; z-index: 99999; }
+  .testimonials-content .sticky-element .stick-element { display: block; width: 100px; height: auto; position: fixed; top: 55%; z-index: 99999; }
   .testimonials-content .sticky-element .stick-element ul .head { font-size: 15px; letter-spacing: 17px; font-family: "Open Sans", sans-serif; letter-spacing: -0.15px; color: #ffffff; }
   .testimonials-content .sticky-element .stick-element ul li { margin: 10px auto; list-style-type: none; }
   .testimonials-content .sticky-element .stick-element ul li a { text-decoration: none; font-size: 15px; letter-spacing: 17px; font-family: "Open Sans", sans-serif; letter-spacing: -0.15px; color: #ffffff; }
@@ -1204,7 +1204,7 @@ footer { clear: both; }
 
 @media (min-width: 1366px) { .ourexercises-text .wrapper { margin: 0 auto; max-width: 1366px; }
   .ourexercises-text .wrapper h1 { font: 900 60px/60px Alegreya Sans; margin: 80px 0 140px 200px; }
-  .ourexercises-content .sticky-element .stick-element { display: block; width: 100px; position: fixed; top: 55%; z-index: 99999; margin-left: 50px; }
+  .ourexercises-content .sticky-element .stick-element { display: block; width: auto; position: fixed; top: 55%; z-index: 99999; margin-left: 50px; }
   .ourexercises-content .sticky-element .stick-element li { margin: 10px auto; list-style-type: none; }
   .ourexercises-content .sticky-element .stick-element li .head { font-size: 15px; letter-spacing: 17px; font-family: "Open Sans", sans-serif; letter-spacing: -0.15px; color: #ffffff; text-decoration: underline; }
   .ourexercises-content .sticky-element .stick-element li a { text-decoration: none; font-size: 15px; letter-spacing: 17px; font-family: "Open Sans", sans-serif; letter-spacing: -0.15px; color: #ffffff; }
