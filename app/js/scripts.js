@@ -236,25 +236,6 @@ document
       }
     }, 80);
   });
-//This function create link to the header in mobile resolution to .menu__box to make
-//'smart' relocation
-document.querySelector(".menu_btn").addEventListener("click", function(e) {
-  if (
-    !(
-      document.querySelector(".menu__box").style.top ==
-      `${document.querySelector("header").offsetHeight - 1}px`
-    )
-  ) {
-    document.querySelector(".menu__box").style.top = `${document.querySelector(
-      "header"
-    ).offsetHeight - 1}px`;
-  } else {
-    document.querySelector(".menu__box").style.top = `-${document.querySelector(
-      ".menu__box"
-    ).offsetHeight + 100}px`;
-  }
-});
-
 function randomInteger(min, max) {
   let rand = min - 0.5 + Math.random() * (max - min + 1);
   return Math.round(rand);
