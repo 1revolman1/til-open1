@@ -1104,7 +1104,7 @@ footer { clear: both; }
   .contacts-content .wrapper { max-width: 1366px; }
   .contacts-content .block-with-text-content { padding-top: 70px; padding-bottom: 300px; }
   .contacts-content .block-with-text-content .sustrac { display: block; position: absolute; top: 20%; right: 0%; }
-  .contacts-content .block-with-text-content .trazado { display: block; position: absolute; bottom: 0%; left: 0%; }
+  .contacts-content .block-with-text-content .trazado { display: block; position: absolute; bottom: -30%; left: 0%; }
   .contacts-content .block-with-text-content .elem { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; padding: unset; }
   .contacts-content .block-with-text-content .elem .map { min-height: 453px; width: 635px; }
   .contacts-content .block-with-text-content .elem .text { padding: 0px 0 0 20px; } }
