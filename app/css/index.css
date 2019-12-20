@@ -900,7 +900,7 @@ section.team-content .block-with-text-content .elem p { font-size: 16px; line-he
 
 .modal-window .modal-window-content .close { position: absolute; top: 0; right: 0; -webkit-transform: translate(100%, -100%) rotate(45deg); -ms-transform: translate(100%, -100%) rotate(45deg); transform: translate(100%, -100%) rotate(45deg); font-size: 35px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; color: white; width: 35px; height: 35px; text-shadow: 2px 2px 7px black; cursor: pointer; }
 
-.fancybox-container { z-index: 999999; }
+.fancybox-container { z-index: 9999999; }
 
 header { top: 0; }
 
