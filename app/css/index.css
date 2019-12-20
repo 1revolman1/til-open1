@@ -1399,7 +1399,7 @@ footer { clear: both; }
 
 .trial-section .wrapper .head .text h3 { font: 900 40px/40px Alegreya Sans; letter-spacing: 0; color: #ffffff; }
 
-.trial-section .wrapper .head .text p { margin: 30px 0; font: 400 16px/21px Open Sans; letter-spacing: 0; color: #ffffff; }
+.trial-section .wrapper .head .text p { word-wrap: break-word; margin: 30px 0; font: 400 16px/21px Open Sans; letter-spacing: 0; color: #ffffff; }
 
 .trial-section .wrapper .head .wrap { overflow: hidden; }
 
