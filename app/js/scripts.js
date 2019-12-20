@@ -715,7 +715,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 window.onload = function() {
-  if(document.querySelectorAll(".sticky-element").length>0){
+  if(document.querySelectorAll(".sticky-element").length>0 &&  getComputedStyle(document.querySelector(".stick-element")).getPropertyValue(
+    "display"
+  ) != "none" ){
     if(screen.width<1024){
      document.querySelector(".sticky-element").style.height=`${$(".block-with-text-content").outerHeight()+Number(getComputedStyle(document.querySelector(".sticky-element")).getPropertyValue(
        "padding-top"

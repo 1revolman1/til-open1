@@ -423,6 +423,8 @@ section.whatistil-content .sticky-element .stick-element { margin-left: 35px; di
 
 section.whatistil-content .sticky-element .stick-element ul li { margin: 4px auto; }
 
+section.whatistil-content .sticky-element .stick-element ul li:hover { text-decoration: underline; }
+
 section.whatistil-content .block-with-text-content { width: 90.2%; position: relative; margin-left: auto; padding: 1px 0 119px 0; background: #f4872d 0% 0% no-repeat padding-box; }
 
 section.whatistil-content .block-with-text-content .sustrac { display: none; }
@@ -521,6 +523,8 @@ section.pricing-content .sticky-element { padding: 5% 0; position: absolute; top
 section.pricing-content .sticky-element .stick-element { margin-left: 35px; display: none; position: -webkit-sticky; position: sticky; top: 50%; }
 
 section.pricing-content .sticky-element .stick-element ul li { margin: 4px auto; }
+
+section.pricing-content .sticky-element .stick-element ul li:hover { text-decoration: underline; }
 
 section.pricing-content .block-with-text-content { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; width: 90.2%; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; position: relative; margin-left: auto; padding: 10px 0 119px 0; background: #f4872d 0% 0% no-repeat padding-box; }
 
@@ -785,6 +789,8 @@ section.team-content .sticky-element .stick-element { margin-left: 35px; display
 
 section.team-content .sticky-element .stick-element ul li { margin: 4px auto; }
 
+section.team-content .sticky-element .stick-element ul li:hover { text-decoration: underline; }
+
 section.team-content .block-with-text-content { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; width: 90.2%; height: auto; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; position: relative; margin-left: auto; padding: 45px 0px 119px 15px; background: #f4872d 0% 0% no-repeat padding-box; }
 
 section.team-content .block-with-text-content .sustrac { display: none; }
@@ -914,6 +920,8 @@ footer { clear: both; }
 
 .testimonials-content .sticky-element .stick-element ul li { margin: 4px auto; }
 
+.testimonials-content .sticky-element .stick-element ul li:hover a { text-decoration: underline; }
+
 .testimonials-content .block-with-text-content { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; width: 91%; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; position: relative; margin-left: auto; padding: 10px 0 119px 0; background: #f4872d 0% 0% no-repeat padding-box; }
 
 .testimonials-content .block-with-text-content .trazado { position: absolute; display: none; }
@@ -975,7 +983,6 @@ footer { clear: both; }
   .testimonials-content .sticky-element .stick-element ul .head { font-size: 15px; letter-spacing: 17px; font-family: "Open Sans", sans-serif; letter-spacing: -0.15px; color: #ffffff; }
   .testimonials-content .sticky-element .stick-element ul li { list-style-type: none; }
   .testimonials-content .sticky-element .stick-element ul li a { text-decoration: none; font-size: 15px; letter-spacing: 17px; font-family: "Open Sans", sans-serif; letter-spacing: -0.15px; color: #ffffff; }
-  .testimonials-content .sticky-element .stick-element ul .active a::after { content: url("./../img/testimonials/iconmonstr-arrow-right-thin.svg"); width: 20px; height: 20px; position: absolute; left: -25px; color: white; -webkit-transform: scale(0.6); -ms-transform: scale(0.6); transform: scale(0.6); margin-top: 5px; }
   .testimonials-content .sticky-element .stick-element .active .active_span { border-bottom: 0; }
   .testimonials-content .block-with-text-content { padding: 5px 5px 155px 5px; -webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start; height: 1850px; width: 85.2%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; height: inherit; justify-content: flex-start; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; }
   .testimonials-content .block-with-text-content .trazado { top: 20%; right: 0; display: block; }
@@ -1087,7 +1094,7 @@ footer { clear: both; }
   .contacts-content .wrapper { max-width: 1366px; }
   .contacts-content .block-with-text-content { padding-top: 45px; padding-bottom: 150px; }
   .contacts-content .block-with-text-content .sustrac { display: block; position: absolute; top: 25%; right: 0%; }
-  .contacts-content .block-with-text-content .trazado { display: block; position: absolute; bottom: 0%; left: 0%; }
+  .contacts-content .block-with-text-content .trazado { display: block; position: absolute; bottom: -30%; left: 0%; }
   .contacts-content .block-with-text-content .elem { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; padding: unset; }
   .contacts-content .block-with-text-content .elem .map { min-height: 350px; width: 430px; }
   .contacts-content .block-with-text-content .elem .text { padding: 0px 0 0 20px; } }
@@ -1274,6 +1281,7 @@ footer { clear: both; }
   .ourexercises-content .sticky-element .stick-element li { margin: 10px auto; list-style-type: none; }
   .ourexercises-content .sticky-element .stick-element li .head { font-size: 15px; letter-spacing: 17px; font-family: "Open Sans", sans-serif; letter-spacing: -0.15px; color: #ffffff; text-decoration: underline; }
   .ourexercises-content .sticky-element .stick-element li a { text-decoration: none; font-size: 15px; letter-spacing: 17px; font-family: "Open Sans", sans-serif; letter-spacing: -0.15px; color: #ffffff; }
+  .ourexercises-content .sticky-element .stick-element li:hover { text-decoration: underline; }
   .ourexercises-content .wrapper { max-width: 1366px; }
   .ourexercises-content .block-with-text-content { padding-top: 70px; padding-bottom: 150px; }
   .ourexercises-content .block-with-text-content .sustrac { display: block; position: absolute; top: 33%; left: 0%; }
@@ -1314,6 +1322,8 @@ footer { clear: both; }
 .terms-content .sticky-element { padding: 5% 0; position: absolute; top: -50px; left: 0; width: 49%; height: 104%; background: #0093d6 0% 0% no-repeat padding-box; opacity: 1; }
 
 .terms-content .sticky-element .stick-element { display: none; }
+
+.terms-content .sticky-element .stick-element li:hover { text-decoration: underline; }
 
 .terms-content .block-with-text-content { width: 91%; position: relative; margin-left: auto; background: #33a9df 0% 0% no-repeat padding-box; }
 
