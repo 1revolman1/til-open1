@@ -1,9 +1,16 @@
 .page-template-start-a-trial-page {
   nav {
     .wrapper-settings {
+     .button{
+       display: none;
       .wrapper-trial {
         display: none;
       }
+     }
+     .user-link{
+      position: absolute;
+      right: 0;
+     }
     }
   }
 }

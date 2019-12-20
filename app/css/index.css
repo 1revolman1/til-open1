@@ -267,7 +267,7 @@ section.banner-with-lectors-word .wrapper { position: relative; max-width: 768px
 
 section.banner-with-lectors-word .wrapper .wrapper-fone { min-height: 730px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: space-evenly; -webkit-justify-content: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; background: #fdd000; height: 100%; width: 100%; margin-right: auto; }
 
-section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible { z-index: 1; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; position: relative; top: 50px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: space-evenly; -webkit-justify-content: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; height: auto; position: relative; padding: 47px; background: #33a9df; max-width: 303px; min-height: 500px; }
+section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible { padding: 30px; max-width: 320px; z-index: 1; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; position: relative; top: 50px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: space-evenly; -webkit-justify-content: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; height: auto; position: relative; padding: 47px; background: #33a9df; max-width: 303px; min-height: 500px; }
 
 section.banner-with-lectors-word .wrapper .wrapper-fone .element-visible div.container div.block { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
 
@@ -1381,7 +1381,11 @@ footer { clear: both; }
   .terms-content .sticky-element .stick-element ul li { margin: 10px auto; list-style-type: none; }
   .terms-content .sticky-element .stick-element ul li a { text-decoration: none; font-size: 15px; letter-spacing: 17px; font-family: "Open Sans", sans-serif; letter-spacing: -0.15px; color: #ffffff; } }
 
-.page-template-start-a-trial-page nav .wrapper-settings .wrapper-trial { display: none; }
+.page-template-start-a-trial-page nav .wrapper-settings .button { display: none; }
+
+.page-template-start-a-trial-page nav .wrapper-settings .button .wrapper-trial { display: none; }
+
+.page-template-start-a-trial-page nav .wrapper-settings .user-link { position: absolute; right: 0; }
 
 .trial-section { margin-top: 60px; background: #9879ed 0% 0% no-repeat padding-box; }
 
