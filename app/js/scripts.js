@@ -151,6 +151,9 @@ window.addEventListener("scroll",scroll_event);
 document
   .querySelector("header .wrapper-list")
   .addEventListener("click", function(event) {
+    if (event.target.tagName == "UL") {
+      return
+     }
     document.querySelector(".wrapper-trial-new").style.display="none";
     document.querySelector("aside").style.transition="";
     document.querySelector("aside").style.transform="";
@@ -160,7 +163,6 @@ document
     setTimeout(() => {
       event.stopPropagation();
       // cleaning background in the .wrapper-list ul childs
-      document.querySelector(".wrapper-trial").style.display = "";
       document.querySelectorAll(".wrapper-list ul li a").forEach(function(e) {
         e.style.background = "";
       });
@@ -173,16 +175,9 @@ document
         document.querySelector(".wrapper-trial-new").style.display="none";
         document.querySelector("header .wrapper").style.background = "";
         document.querySelector("header").style.background = "";
-        // event.target.style.background = "#33a7db";
-        document.querySelector(".wrapper-trial").style.display = "";
       }
       //if li="Contact" - skip. Else - do
       if (!(event.target.textContent == "Contact")) {
-        document.querySelector(".wrapper-trial").style.display = "none";
-        //Fixing error of ending from UL
-        if (event.target.tagName == "UL") {
-          document.querySelector(".wrapper-trial").style.display = "";
-        }
         if (event.target.textContent == "About") {
           document.querySelector(".menu-about").style.display = "flex";
           document.querySelector(
@@ -201,10 +196,8 @@ document
             document.querySelector(".wrapper-trial-new").style.display="";
             document.querySelector("header .wrapper").style.background = "";
             document.querySelector("header").style.background = "";
-            // event.target.style.background = "#33a7db";
             document.querySelectorAll(".wrapper-list ul li")[0].style.background = "#7d56e9";
             document.querySelector(".menu-about").style.display = "none";
-            document.querySelector(".wrapper-trial").style.display = "";
             document
               .querySelectorAll(".wrapper-list ul li a")
               .forEach(function(e) {
@@ -225,7 +218,6 @@ document
           document.querySelector("header .wrapper").style.background =
             "#F16D94";
           document.querySelector("header").style.background = "#F16D94";
-          // event.target.style.background = "#EA4678"; 
           document.querySelectorAll(".wrapper-list ul li")[1].style.background = "#EA4678";
          
           //Cleaning SECTION
@@ -235,10 +227,8 @@ document
             document.querySelector(".wrapper-trial-new").style.display="";
             document.querySelector("header .wrapper").style.background = "";
             document.querySelector("header").style.background = "";
-            // event.target.style.background = "#33a7db";
             document.querySelectorAll(".wrapper-list ul li")[1].style.background = "#33a7db"
             document.querySelector(".menu-teachers").style.display = "none";
-            document.querySelector(".wrapper-trial").style.display = "";
             document
               .querySelectorAll(".wrapper-list ul li a")
               .forEach(function(e) {
@@ -264,36 +254,36 @@ function randomInteger(min, max) {
   let rand = min - 0.5 + Math.random() * (max - min + 1);
   return Math.round(rand);
 }
-function current_page() {
-  let text = location.pathname
-    .split("/")[1]
-    .split("-")
-    .join(" ");
-  if (text == "") return;
-  document.querySelectorAll("menu .wrapper li").forEach((e, i) => {
-    if (e.textContent.toLowerCase().includes(text)) {
-      if (i <= 6) {
-        document
-          .querySelectorAll(".wrapper-list li")[0]
-          .classList.add("active");
-        document.querySelectorAll("header .active a").forEach(element => {
-          element.innerHTML = `<span style="background:transparent" class="active_span">${
-            document.querySelector("header .active a").textContent
-          }</span>`;
-        });
-      } else {
-        document
-          .querySelectorAll(".wrapper-list li")[1]
-          .classList.add("active");
-        document.querySelectorAll("header .active a").forEach(element => {
-          element.innerHTML = `<span style="background:transparent" class="active_span">${
-            document.querySelector("header .active a").textContent
-          }</span>`;
-        });
-      }
-    }
-  });
-}
+// function current_page() {
+//   let text = location.pathname
+//     .split("/")[1]
+//     .split("-")
+//     .join(" ");
+//   if (text == "") return;
+//   document.querySelectorAll("menu .wrapper li").forEach((e, i) => {
+//     if (e.textContent.toLowerCase().includes(text)) {
+//       if (i <= 6) {
+//         document
+//           .querySelectorAll(".wrapper-list li")[0]
+//           .classList.add("active");
+//         document.querySelectorAll("header .active a").forEach(element => {
+//           element.innerHTML = `<span style="background:transparent" class="active_span">${
+//             document.querySelector("header .active a").textContent
+//           }</span>`;
+//         });
+//       } else {
+//         document
+//           .querySelectorAll(".wrapper-list li")[1]
+//           .classList.add("active");
+//         document.querySelectorAll("header .active a").forEach(element => {
+//           element.innerHTML = `<span style="background:transparent" class="active_span">${
+//             document.querySelector("header .active a").textContent
+//           }</span>`;
+//         });
+//       }
+//     }
+//   });
+// }
 function animation(clas, func) {
   let show = true;
   let offsetTop = $(clas).offset().top;
@@ -306,7 +296,7 @@ function animation(clas, func) {
   });
 }
 document.addEventListener("DOMContentLoaded", function(event) {
-  current_page();
+  // current_page();
   document.querySelector(".wrapper-trial-new p").style.left="131px";
   if(!document.querySelector(".page-template-home-page") &&document.querySelectorAll(".rellax").length>0){
     var rellax = new Rellax('.rellax', {
