@@ -626,7 +626,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   if (document.querySelectorAll(".page-template-home-page").length > 0) {   
     document.querySelector("html").style.overflowX="hidden";
     var rellax = new Rellax('.rellax', {
-      speed: -15,
+      speed: -5,
       center: true,
       round: true,
       vertical: true,
@@ -638,21 +638,24 @@ document.addEventListener("DOMContentLoaded", function(event) {
           if(screen.width>=320 && screen.width>=720 && screen.width>=1366){
             $(".block-line").css("transform",`${$(".block-line").css("transform")+" scale(1)"}`)
           $(".line1").css("transform",`${$(".line1").css("transform")+" scale(1.5)"}`)
-          $(".line2").css("transform",`${$(".line2").css("transform")+" scale(3)"}`)
+          // $(".line2").css("transform",`${$(".line2").css("transform")+" scale(3)"}`)
+          }
+          if(screen.width>=1024 && screen.width<=1366){
+            $(".line1").css("transform",`${$(".line1").css("transform")+" scale(1.5)"}`)
           }
           if(screen.width>=320 && screen.width<=720 && screen.width<=1366){
             $(".block-line").css("transform",`${$(".block-line").css("transform")+" scale(0.65)"}`)
             $(".block-line2").css("transform",`${$(".block-line2").css("transform")+" scale(0.8)"}`)
             $(".block-line4").css("transform",`${$(".block-line4").css("transform")+" scale(-0.65, -0.65) rotate(180deg)"}`)
           }
-          if(screen.width>=1024 && screen.width<1366){
-            $(".line2").css("transform",`${$(".line2").css("transform")+" scale(2)"}`)
+          if(screen.width>=720 && screen.width<1024){
+            $(".line1").css("transform",`${$(".line1").css("transform")+" scale(1.25)"}`)
           }
         }
       }
     });
     var BlockLine3 = new Rellax('.rellax-block', {
-      speed: -15,
+      speed: -3,
       center: true,
       round: true,
       vertical: true,
@@ -661,16 +664,19 @@ document.addEventListener("DOMContentLoaded", function(event) {
         if(!!document.querySelector(".page-template-home-page"))
         {
           if(screen.width>=320 && screen.width>=720 && screen.width>=1366){
-            $(".block-line3").css("transform",`${$(".block-line3").css("transform")+" rotate(90deg) scale(3.4)"}`)
+            $(".block-line3").css("transform",`${$(".block-line3").css("transform")+" rotate(96deg) scale(4)"}`)
+            $(".line2").css("transform",`${$(".line2").css("transform")+" scale(3)"}`)
           }
           if(screen.width>=320 && screen.width<=720 && screen.width<=1366){
             $(".block-line3").css("transform",`${$(".block-line3").css("transform")+" rotate(69deg) scale(3.3)"}`)
            }
            if(screen.width>=720 && screen.width<1024){
             $(".block-line3").css("transform",`${$(".block-line3").css("transform")+" rotate(90deg) scale(5)"}`)
+            $(".line2").css("transform",`${$(".line2").css("transform")+" scale(2.5)"}`)
           }
           if(screen.width>=1024 && screen.width<1366){
-            $(".block-line3").css("transform",`${$(".block-line3").css("transform")+" rotate(67deg) scale(3)"}`)
+            $(".block-line3").css("transform",`${$(".block-line3").css("transform")+" rotate(67deg) scale(4)"}`)
+            $(".line2").css("transform",`${$(".line2").css("transform")+" scale(3)"}`)
           }
         }
       }
