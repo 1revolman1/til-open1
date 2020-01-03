@@ -767,6 +767,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
       });
     });
+    //recursion function of  type animation
     function type(index, stop) {
       let increment = index + 1;
       if (stop == 1) {
@@ -808,7 +809,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
           active.kill();
         });
     }
-    let stop = document.querySelectorAll(".for-typer span").length; //стоп элеменет
+    let stop = document.querySelectorAll(".for-typer span").length; //index of element that might be the last
     type(0, stop);
   }
 });
