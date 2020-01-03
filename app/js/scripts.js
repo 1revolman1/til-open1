@@ -767,24 +767,49 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
       });
     });
-    typer(".banner-photo .acitve")
-      .cursor({ block: false, blink: "hard", color: "red" })
-      .line(
-        document.querySelectorAll("section.banner-photo h1")[0].textContent,
-        {
+    function type(index, stop) {
+      let increment = index + 1;
+      if (stop == 1) {
+        let active = typer(".banner-photo .acitve")
+          .cursor({ block: false, blink: "hard", color: "red" })
+          .line(
+            document.querySelectorAll(".for-typer span")[index].textContent,
+            {
+              min: 30,
+              max: 150
+            }
+          );
+        return;
+      }
+      let active = typer(".banner-photo .acitve")
+        .cursor({ block: false, blink: "hard", color: "red" })
+        .line(document.querySelectorAll(".for-typer span")[index].textContent, {
           min: 30,
           max: 150
-        }
-      )
-      .pause(1000);
-    // .back(9, 100)
-    // .continue("teachers.", { min: 30, max: 150 })
-    // .pause(1000)
-    // .back(9, 100)
-    // .continue("lessons.", { min: 30, max: 150 })
-    // .pause(1000)
-    // .back(8, 100)
-    // .continue("language.", { min: 30, max: 150 });
+        })
+        .pause(1000)
+        .back("all")
+        .pause(1000)
+        .end(function(el) {
+          el.innerHTML = "";
+          if (increment < stop) {
+            type(increment, stop);
+          } else {
+            let new_active = typer(".banner-photo .acitve")
+              .cursor({ block: false, blink: "hard", color: "red" })
+              .line(
+                document.querySelectorAll(".for-typer span")[0].textContent,
+                {
+                  min: 30,
+                  max: 150
+                }
+              );
+          }
+          active.kill();
+        });
+    }
+    let stop = document.querySelectorAll(".for-typer span").length; //стоп элеменет
+    type(0, stop);
   }
 });
 
