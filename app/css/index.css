@@ -1616,7 +1616,7 @@ footer { clear: both; }
 @media (min-width: 1366px) { .trial-section { margin-top: 90px; }
   .trial-section .wrapper { position: relative; max-width: 1366px; margin: 0 auto; }
   .trial-section .wrapper .trazado { display: block; right: 0; top: 200px; -webkit-transform: scale(-1, -1); -ms-transform: scale(-1, -1); transform: scale(-1, -1); }
-  .trial-section .wrapper .sustrac { display: block; position: absolute; top: 120%; top: 150%; }
+  .trial-section .wrapper .sustrac { display: block; position: absolute; top: 120%; }
   .trial-section .wrapper .elem { position: relative; }
   .trial-section .wrapper .head { padding: 0 50px; padding-left: 145px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
   .trial-section .wrapper .head .text { max-width: 605px; margin: unset; }
