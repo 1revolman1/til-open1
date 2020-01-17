@@ -112,9 +112,10 @@ header {
           }
         }
         li:hover {
+          // background: red;
           a {
             background: none;
-            line-height: 30px;
+            line-height: 30px !important;
             border-bottom: 1px solid;
           }
         }
