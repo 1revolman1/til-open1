@@ -843,9 +843,13 @@ menu {
             margin: unset;
             width: 82px;
             font-size: 16px;
+            display: flex;
+            justify-content: center;
             a {
-              height: 100%;
-              width: 100%;
+              height: unset;
+              width: unset;
+              // height: 100%;
+              // width: 100%;
               display: flex;
               align-items: center;
               justify-content: center;
