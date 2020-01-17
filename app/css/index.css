@@ -30,7 +30,7 @@ header .wrapper-list ul li { cursor: pointer; position: relative; display: -webk
 
 header .wrapper-list ul li a { position: relative; height: 30px; width: auto; outline: none; }
 
-header .wrapper-list ul li:hover .hover { background: none; line-height: 30px; border-bottom: 1px solid; }
+header .wrapper-list ul li:hover a { background: none; line-height: 30px; border-bottom: 1px solid; }
 
 header .wrapper .settings-country-selector { display: none; margin: 0 10px; background: transparent; }
 
