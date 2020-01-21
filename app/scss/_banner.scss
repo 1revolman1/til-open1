@@ -442,12 +442,14 @@ section.banner-with-lectors-word {
           background: #33a9df;
         }
         .prev-arrow {
+          cursor: pointer;
           z-index: 1;
           position: absolute;
           left: 9%;
           top: 50%;
         }
         .second-arrow {
+          cursor: pointer;
           z-index: 1;
           position: absolute;
           right: 9%;
